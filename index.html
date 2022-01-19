@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+    <title>R-P-S</title>
+  </head>
+  <body>
+      <header>
+        <h1>Rock Paper Scissors</h1>
+      </header>
+      <div class="score-board">
+          <div id="user-label" class="badge">user</div>
+          <div id="computer-label" class="badge">comp</div>
+      <span id="user-score">0</span>:<span id="computer-score">0</span>
+      </div>
+
+      <div class="result">
+          <p>Try Your Luck!</p>
+      </div>
+
+      <div class="choices">
+          <div class="choice" id="r">
+              <img src="./myicons/rock.png" alt="Rock" width="150" height="150">
+          </div>
+          <div class="choice" id="p">
+              <img src="./myicons/paper.png" alt="Paper" width="150" height="150">
+          </div>
+          <div class="choice" id="s">
+              <img src="./myicons/scissors.png" alt="Scissors" width="150" height="150">
+          </div>
+      </div>
+      <p id="action-msg">Make Your Move!</p>
+ </body>
+  <script src="./app.js"></script>
+  <script src="./styles.css" ></script>
+  <script src="./myicons/" ></script>
+</html>
